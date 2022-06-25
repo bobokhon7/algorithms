@@ -7,6 +7,7 @@ var rotate = function (nums, k) {
     result[new_index] = nums[i];
   }
 
+  ////// should make old array to new array because of extra space
   for (let i = 0; i < array_l; i++) {
     nums[i] = result[i];
   }

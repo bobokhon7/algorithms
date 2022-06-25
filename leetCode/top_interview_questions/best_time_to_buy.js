@@ -11,6 +11,7 @@ var maxProfit = function (prices) {
   return profit;
 };
 
+///1  =>  n tomom
 console.log(maxProfit([7, 1, 5, 3, 6, 4]));
 
 // i=1
